@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>cheak-box</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;}
+     
+    body{ justify-content: center;
+        align-items: center;
+        background-color:dimgray;
+        color:white;
+        min-height: 100vh;
+        display:flex;}
+
+    .container img{
+        position:relative;
+        display: flex;
+        border: 12px solid white;
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+        transition: 5s;
+        /* bottom: 70px; */
+        animation: Mayank 3s infinite ease-in-out;
+        
+        
+        /* animation: Mayank1 3s infinite; */
+
+        /* justify-content: center;
+        align-items: center; */
+    }
+
+    
+    .container-shadow{
+        border: 1px solid black;
+        width: 200px;
+        height: 1px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 30%;
+        margin-top: 30%;
+        box-shadow:1px 1px 50px 50px black ;
+    }
+    @keyframes Mayank {
+      0%{top:0px}
+    50%{top:40px}
+   100%{ top:0px}
+      
+      
+      
+      
+      
+        /* 0% {top: 0px;}
+     25% {top: 20px;}
+     50% {top: 40px;}
+     75% {top: 21px;}
+    100% {top: 0px;}
+   */
+}
+/* @keyframes Mayank {
+  from {top: 30px;}
+  to {top: 0px;}
+} */
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+    </header>
+    <main>
+        <div class="container">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8cHJvZmlsZXxlbnwwfHwwfHw%3D&w=1000&q=80" alt="img" >
+
+        </div>
+        <br><br><br><br>
+        <div class="container-shadow"><ellipse cx="200" cy="80" rx="100" ry="50"
+  style="fill:black;stroke:black;stroke-width:2" /> </div>
+
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
